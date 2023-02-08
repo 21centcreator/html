@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar{
+  background-color: tomato;
+  color: white;
+}
+.jumbotron{
+  background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+.btn{
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid white;
+  color: white;
+  width: 200px;
+  
+}
+
+.btn:hover{
+  background-color: tomato;
+  border : 2px solid tomato;
+}
